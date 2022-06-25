@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body class="fotos">
+<body id="uma-coluna" class="fotos">
 
-    <div id="container">
-        <!--inicio container-->
-        <div id="topo">
-            <!--inicio topo-->
+    <div id="container"><!--inicio container-->
+        
+        <div id="topo"><!--inicio topo-->
+            
             <h1 class="logo" target="_blank">Notícias Cidade</h1>
-            <ul id="navegaçao">
-                <!--inicio navegaçao-->
+
+            <ul id="navegaçao"><!--inicio navegaçao-->
+                
                 <li class="primeiro">
                     <a id="home" href="index.html" target="_blank">Home</a>
                 </li>
@@ -45,12 +46,82 @@
                 <li>
                     <a id="fotos" href="fotos.html" target="_blank">fotos</a>
                 </li>
-            </ul>
-            <!--fim navegaçao-->
-        </div>
-        <!--fim topo-->
-    </div>
-    <!--fim container-->
+            </ul><!--fim navegaçao-->
+            
+        </div><!--fim topo-->
+
+        <div id="conteudo"> <!--inicio conteudo-->
+           
+            <div id="primario">
+                <!--inicio conteudo primario-->
+                <div class="caixa entrevista">
+                    <H2>Última entrevista</H2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com Felipe Silva</h3>
+                        <img class="imagem-principal" src="imagem/doutor.jpg" alt="" width="100%">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</p>
+                        <a href="">Leia mais ...</a>
+                    </div>
+                </div>
+            
+                <div class="caixa">
+                    <H2>Mundo</H2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="imagem/tecnologia.jpg" alt="" width="80">
+                                    <h3>CRISE EUROPÉIA</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </p>
+                                </a>
+                            </li>
+            
+                            <li>
+                                <a href="">
+                                    <img src="imagem/tecnologia.jpg" alt="" width="80">
+                                    <h3>USA TETAM NOVO ACORDO</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </p>
+                                </a>
+                            </li>
+            
+                            <li>
+                                <a href="">
+                                    <img src="imagem/tecnologia.jpg" alt="" width="80">
+                                    <h3>GUERRA NA SÍRIA</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </p>
+                                </a>
+                            </li>
+            
+                            <li>
+                                <a href="">
+                                    <img src="imagem/tecnologia.jpg" alt="" width="80">
+                                    <h3>RÚSSIA APROVA LEI</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--fim conteudo primario-->
+
+        </div> <!--fim conteudo-->
+       
+        
+    </div><!--fim container-->
+
+                        <!--esse style tira a 
+                                               flutuação do rodape-->
+                        <div id="container-rodape" style="clear: both;">
+                            <div id="rodape">
+                                &copy; copyright 2000-2022 Notícias Cidade
+                            </div>
+                        </div>
+    
 
 </body>
 
